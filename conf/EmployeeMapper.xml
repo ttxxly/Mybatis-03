@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.darklovy.mybatis.dao.EnmployeeMapper">
+<mapper namespace="com.darklovy.mybatis.dao.EmployeeMapper">
 	<!-- 
 	namespace:名称空间;指定为接口的全类名 
 	id：唯一标识 resultType：返回值类型 
@@ -17,4 +17,5 @@
 		select id,last_name lastName,email,gender from tbl_employee
 		where id = #{id}
 	</select>
+	
 </mapper>
